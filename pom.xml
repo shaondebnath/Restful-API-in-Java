@@ -5,7 +5,7 @@
 
 	<groupId>de.tub.ise.anwsys</groupId>
 	<artifactId>rest-springboot-base</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.12</version>
 	<packaging>jar</packaging>
 	<build>
 		<plugins>
@@ -73,6 +73,11 @@
 			<artifactId>h2</artifactId>
 			<version>${h2.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.pdfbox</groupId>
+			<artifactId>pdfbox</artifactId>
+			<version>1.8.8</version>
+		</dependency>	
 	</dependencies>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
